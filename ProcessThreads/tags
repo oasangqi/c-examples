@@ -1,0 +1,80 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ALG_SHA1	session.h	42;"	d
+KBM_SESSION_H	session.h	11;"	d
+MYSQL_PASSWD	main.c	9;"	d	file:
+MYSQL_PORT	main.c	10;"	d	file:
+MYSQL_USERNAME	main.c	8;"	d	file:
+SESSION_ADDR_MAXLEN	session.h	20;"	d
+SESSION_ID_MAXLEN	session.h	18;"	d
+SESSION_IP_MAXLEN	session.h	16;"	d
+SESSION_PWD_MAXLEN	session.h	19;"	d
+SESSION_QUERY_BY_SID	session.h	34;"	d
+SESSION_QUERY_BY_UID	session.h	36;"	d
+SESSION_QUERY_BY_UID_IP	session.h	35;"	d
+SESSION_SKEY_MAXLEN	session.h	17;"	d
+SESSION_STATUS_FORCE_OUT	session.h	40;"	d
+SESSION_STATUS_VALID	session.h	39;"	d
+SESSION_STATUS_VALIDING	session.h	38;"	d
+SESSION_TIMEOUT	main.c	11;"	d	file:
+SESSION_UPDATE_CC	session.h	28;"	d
+SESSION_UPDATE_HOST	session.h	26;"	d
+SESSION_UPDATE_LAST_TIME	session.h	24;"	d
+SESSION_UPDATE_PEERADDR	session.h	30;"	d
+SESSION_UPDATE_PORT	session.h	29;"	d
+SESSION_UPDATE_SC	session.h	27;"	d
+SESSION_UPDATE_SKEY	session.h	25;"	d
+SESSION_UPDATE_STATUS	session.h	23;"	d
+SESSION_UPDATE_SVR_IP	session.h	31;"	d
+SESSION_UPDATE_SVR_PORT	session.h	32;"	d
+alias	session.h	/^	char	 alias[SESSION_ID_MAXLEN];$/;"	m	struct:session
+cc	session.h	/^	int	cc;$/;"	m	struct:session
+child_process	main.c	/^int child_process()$/;"	f
+cond	main.c	/^	pthread_cond_t cond;$/;"	m	struct:global_vars_s	file:
+cond_main	main.c	/^	pthread_cond_t cond_main;$/;"	m	struct:global_vars_s	file:
+create_time	session.h	/^	int	create_time;$/;"	m	struct:session
+g_args	main.c	/^global_args_t	g_args;$/;"	v
+g_vars	main.c	/^global_vars_t	g_vars;$/;"	v
+global_args_s	main.c	/^typedef struct global_args_s {$/;"	s	file:
+global_args_t	main.c	/^} global_args_t;$/;"	t	typeref:struct:global_args_s	file:
+global_vars_s	main.c	/^typedef struct global_vars_s {$/;"	s	file:
+global_vars_t	main.c	/^} global_vars_t;$/;"	t	typeref:struct:global_vars_s	file:
+host	main.c	/^	char host[SESSION_IP_MAXLEN];$/;"	m	struct:global_args_s	file:
+host	session.h	/^	char	 host[SESSION_IP_MAXLEN];$/;"	m	struct:session
+host	session.h	/^	char	host[SESSION_IP_MAXLEN];$/;"	m	struct:session_cfg
+interval	main.c	/^	int interval; \/\/更新、查询时间超过该值将被打印$/;"	m	struct:global_args_s	file:
+last_time	session.h	/^	int	last_time;$/;"	m	struct:session
+log	main.c	/^	char log[PATH_MAX];$/;"	m	struct:global_args_s	file:
+main	main.c	/^int main(int argc, char *argv[])$/;"	f
+mutex	main.c	/^	pthread_mutex_t mutex;$/;"	m	struct:global_vars_s	file:
+mutex_main	main.c	/^	pthread_mutex_t mutex_main;$/;"	m	struct:global_vars_s	file:
+online	session.h	/^	int	online;$/;"	m	struct:session
+parse_args	main.c	/^int parse_args(int argc, char *argv[])$/;"	f
+password	session.h	/^	char	password[SESSION_PWD_MAXLEN];$/;"	m	struct:session_cfg
+peeraddr	session.h	/^	char peeraddr[SESSION_ADDR_MAXLEN];$/;"	m	struct:session
+peeraddr_len	session.h	/^	int	peeraddr_len; \/\/不存到数据库$/;"	m	struct:session
+port	session.h	/^	int	port;$/;"	m	struct:session
+port	session.h	/^	int	port;$/;"	m	struct:session_cfg
+process	main.c	/^	int	process;$/;"	m	struct:global_args_s	file:
+sc	session.h	/^	int	sc;$/;"	m	struct:session
+search_update_session	main.c	/^void *search_update_session(void *arg)$/;"	f
+session	session.h	/^typedef  struct  session {$/;"	s
+session_cfg	session.h	/^typedef struct	session_cfg {$/;"	s
+session_cfg_t	session.h	/^} session_cfg_t;$/;"	t	typeref:struct:session_cfg
+session_handle	session.h	/^typedef struct session_handle_s *session_handle;$/;"	t	typeref:struct:session_handle_s
+session_t	session.h	/^} session_t;$/;"	t	typeref:struct:session
+sid	session.h	/^	unsigned long sid;$/;"	m	struct:session
+skey	session.h	/^	char	 skey[SESSION_SKEY_MAXLEN];$/;"	m	struct:session
+skeylen	session.h	/^	int	skeylen; \/\/不存到数据库$/;"	m	struct:session
+status	session.h	/^	int	status;$/;"	m	struct:session
+svr_ip	session.h	/^	char	svr_ip[SESSION_IP_MAXLEN];$/;"	m	struct:session
+svr_port	session.h	/^	int	svr_port;$/;"	m	struct:session
+threads	main.c	/^	int threads;$/;"	m	struct:global_args_s	file:
+threads_started	main.c	/^	int threads_started;$/;"	m	struct:global_vars_s	file:
+times	main.c	/^	int times; \/\/单个线程更新、查询次数$/;"	m	struct:global_args_s	file:
+uid	session.h	/^	int	uid;$/;"	m	struct:session
+username	session.h	/^	char	username[SESSION_ID_MAXLEN];$/;"	m	struct:session_cfg
